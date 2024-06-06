@@ -1,0 +1,133 @@
+.bai1 {
+    /* transform: translateY(250px); */
+    margin-top: 100px;
+}
+
+.card {
+    align-items: center;
+    padding: 30px 30px;
+    background-color: rgba(211, 211, 211, 0.3);;
+}
+
+.logo {
+    border: 3px solid rgb(135, 222, 222);
+    color: rgb(135, 222, 222);
+    padding: 10px 15px;
+    border-radius: 50%;
+}
+
+.title {
+    padding-top: 15px;
+}
+
+.description {
+    padding-top: 20px;
+}
+
+
+.bai2 {
+    background-color: #D36569; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 550px;
+    width: 400px;
+    margin: 0;
+    transform: translateX(600px);
+    border-radius: 6px;
+}
+
+.bai2 {
+    margin-top: 200px;
+    margin-bottom: 200px;
+}   
+
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.login-box {
+    background: white;
+    padding: 20px 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #333;
+}
+
+input[type="email"], input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin: 4px 0 10px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.forgot-password {
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.forgot-password a {
+    color: #555;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.forgot-password a:hover {
+    text-decoration: underline;
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.register-button, .signin-button {
+    width: 48%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.register-button {
+    background-color: #ccc;
+    color: #333;
+}
+
+.signin-button {
+    background-color: #333;
+    color: white;
+}
+
+.register-button:hover {
+    background-color: #bbb;
+}
+
+.signin-button:hover {
+    background-color: #222;
+}
